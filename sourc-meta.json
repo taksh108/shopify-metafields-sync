@@ -1,0 +1,39 @@
+/*
+Source Data query, can run through the GraphiQL App or any method of your choice
+
+Get the app at https://shopify-graphiql-app.shopifycloud.com/login
+query {
+  metafieldDefinitions(first: 250, ownerType: PRODUCT) {
+    edges {
+      node {
+        namespace
+        key
+        name
+        type{
+          name
+          category
+        }
+      }
+    }
+  }
+}
+*/
+{
+  "data": {
+    "metafieldDefinitions": {
+      "edges": [
+        {
+          "node": {
+            "namespace": "global",
+            "key": "bottom-color",
+            "name": "Bottom Color",
+            "type": {
+              "name": "single_line_text_field",
+              "category": "TEXT"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
