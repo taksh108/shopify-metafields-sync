@@ -1,13 +1,10 @@
 
 
 <p align="center">
-  <br/>
-  This is a Simplet Python script to create metafield definitions on a Shopify store via the GraphQL Admin API.
-  <br/>
+  This script allows you to create multiple metafield definitions on a Shopify store via the GraphQL Admin API.
 </p>
 
 
-This script allows you to synchronize metafield definitions in your Shopify store using the Shopify GraphQL API.
 
 ## Prerequisites
 
