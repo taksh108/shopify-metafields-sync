@@ -20,7 +20,7 @@ Before using the script, make sure you have the following:
 Clone the repo and install requirements using pip
 1. Clone this repository to your local machine:
 ```bash
-git clone https://github.com/taksh108/shopify-metafield-sync.git
+git clone https://github.com/taksh108/shopify-metafields-sync.git
 cd shopify-metafield-sync
 
 ```
